@@ -23,6 +23,7 @@
   
   .Contact .status {
     display: flex;
+    align-items: center;
   }
   
   /* Status text */
