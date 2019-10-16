@@ -35,7 +35,7 @@ const contact = [
 const ContactList = () => (
     <div>
         {contact.map(item => (
-            <Contact firstname={item.firstname} lastname={item.lastname} image={item.image} online={item.online} />
+            <Contact key={item.lastname} firstname={item.firstname} lastname={item.lastname} image={item.image} online={item.online} />
         ))}
     </div>
 );
